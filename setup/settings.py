@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'pasagens',
 ]
 
 MIDDLEWARE = [
@@ -114,5 +115,6 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+#Dizer que meus apps estão dentro da pasta apps
 PROJECT_ROOT = os.path.dirname(__file__)
 sys.path.insert(0, os.path.join(PROJECT_ROOT, '../apps'))
