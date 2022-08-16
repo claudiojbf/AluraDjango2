@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'pasagens',
+    'tempus_dominus',
 ]
 
 MIDDLEWARE = [
@@ -118,3 +119,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #Dizer que meus apps estão dentro da pasta apps
 PROJECT_ROOT = os.path.dirname(__file__)
 sys.path.insert(0, os.path.join(PROJECT_ROOT, '../apps'))
+
+#Tempus dominus
+TEMPUS_DOMINUS_LOCALIZE = True
