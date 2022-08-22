@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'pasagens',
     'tempus_dominus',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
